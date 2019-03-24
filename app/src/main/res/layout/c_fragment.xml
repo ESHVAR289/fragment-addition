@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/rounded_corner_corporation_bank">
+
+    <TextView
+        android:id="@+id/txt_fragment_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/str_fragment_c_label"
+        style="@style/BlackTextViewStyle"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/txt_addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/str_default_addition"
+        android:layout_below="@id/txt_fragment_c"
+        android:layout_marginTop="30dp"
+        android:textSize="60sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

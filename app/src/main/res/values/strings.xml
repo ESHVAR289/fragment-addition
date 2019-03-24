@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cash Rich</string>
+    <string name="str_calculate">calculate</string>
+    <string name="textChange">text changed</string>
+    <string name="str_default_addition">0</string>
+    <string name="str_fragment_a_label">FRAGMENT A</string>
+    <string name="str_fragment_b_label">FRAGMENT B</string>
+    <string name="str_fragment_c_label">FRAGMENT C</string>
+    <string name="str_launch_task_1">Launch Task 1</string>
+    <string name="str_launch_task_2">Launch Task 2</string>
+    <string name="str_withdrawal_value_label">Withdrawal Value</string>
+    <string name="str_current_value_label">Current Value</string>
+    <string name="str_full_withdrawal_label">Full Withdrawal</string>
+    <string name="Rs">\u20B9</string>
+</resources>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ThreeFragmentActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <fragment
+            android:id="@+id/a_fragment"
+            android:name="com.einfoplanet.fragmentaddition.views.A_Fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout="@layout/a_fragment" />
+
+        <fragment
+            android:id="@+id/b_fragment"
+            android:name="com.einfoplanet.fragmentaddition.views.B_Fragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout="@layout/b_fragment" />
+    </LinearLayout>
+    <fragment
+        android:id="@+id/c_fragment"
+        android:name="com.einfoplanet.fragmentaddition.views.C_Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_container"
+        tools:layout="@layout/c_fragment" />
+
+
+
+</RelativeLayout>

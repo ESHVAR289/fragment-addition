@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey_color">#C3C6C6</color>
+    <color name="hdfc_bank_theme_color">#E4002B</color>
+    <color name="sbi_bank_theme_color">#0085D9</color>
+    <color name="boi_bank_theme_color">#FB7201</color>
+    <color name="yes_bank_theme_color">#6494D8</color>
+    <color name="icici_bank_theme_color">#640001</color>
+    <color name="kotak_bank_theme_color">#FD0001</color>
+    <color name="corporation_bank_theme_color">#00B55B</color>
+
+</resources>
